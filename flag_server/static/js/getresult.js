@@ -1,10 +1,9 @@
 $(function(){
     function getresult(){
-      $.get("./result.txt",function(res,status){
+      $.get("./result.txt?"+Math.random(),function(res,status){
 		var item=res.split('\n');
 		// console.log(item);
 		$('.result-list-item').html("");
-		for(var i=1;i<item.length-1;i++){
 		for(var i=0;i<item.length-1;i++){
 			var num=(res.split(item[i])).length-1;
 			// console.log(num);

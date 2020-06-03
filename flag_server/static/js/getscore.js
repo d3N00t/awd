@@ -1,6 +1,6 @@
 $(function(){
     function getScore(){
-      $.get("./score.txt",function(res,status){
+      $.get("./score.txt?"+Math.random(),function(res,status){
 		var item=res.split('|');
 		$('.score-list-item').html("");
 		for(var i=0;i<item.length;i++){
