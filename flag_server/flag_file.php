@@ -1,5 +1,4 @@
 <?php
-header('Access-Control-Allow-Origin:*'); // *代表允许任何网址请求
 require 'config.php';
 require 'submitted.php';
 #require 'pass.php';
@@ -85,3 +84,5 @@ function getsuningtime(){
 	$time=json_decode($timedata,true);
 	return $time['sysTime2'];
 }
+
+?>
