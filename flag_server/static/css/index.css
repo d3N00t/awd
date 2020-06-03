@@ -1,0 +1,135 @@
+*{padding: 0;margin: 0;}
+a{text-decoration: none;}
+a:hover{
+	color: #aaa;
+}
+ul,li{
+	list-style: none;
+}
+body{
+	background-color: #000;
+	color: azure;
+	font-size: 14px;
+	/* white-space:nowrap; */
+}
+h2{
+	text-align: center;
+	margin:20px 0;
+}
+nav{
+	width: auto;
+	height: 3.75rem;
+	background-color: darkred;
+	text-align: center;
+}
+nav div{
+	display:inline-block;
+	margin: 0 2rem;
+	font-size: 14px;
+	width: 6.25rem;
+	height: 100%;
+}
+nav div:hover{
+	background-color: #670000;
+}
+nav div a{
+	color:#fff;
+	display: inline-block;
+	padding: 20px 0px;
+	width: 100%;
+	height: 100%;
+}
+.score,
+.result{
+	margin: 1.25rem auto;
+	height: auto;
+	width: 70%;
+	padding: 1rem 4rem;
+	background-color: rgba(200,200,200,.3);
+	border-radius: 0.9375rem;
+	box-shadow: #666 1px 0 10px;
+}
+.score-list,
+.result-list{
+	border-radius: 0.9375rem;
+	background-color: #111;
+	padding-bottom:1.5rem;
+}
+.line-red{
+	width: 100%;
+	height: 5px;
+	background-color: darkred;
+	display: inline-block;
+}
+.score-list-nav,
+.result-list-nav
+{
+	display: inline-block;
+	width: 100%;
+	height: 3.75rem;
+}
+
+
+.score-list-nav li,
+.score-list-item>li>ul>li,
+.result-list-nav li,
+.result-list-item>li>ul>li{
+	display: inline-block;
+	width:25%;
+	height: auto;
+	text-align: center;
+}
+.result-list-nav li,
+.result-list-item>li>ul>li{
+	width:20%;
+}
+.score-list-item,
+.score-list-item>li>ul,
+.result-list-item,
+.result-list-item>li>ul{
+	display: inline-block;
+	width: 100%;
+	height: 3.75rem;
+}
+.score-list-item>li,
+.result-list-item>li{
+	display: inline-block;
+	width:100%;
+	height: 3.75rem;
+	height: auto;
+	text-align: center;
+}
+.score-list-item,
+.result-list-item{
+	height: 200px;
+	overflow-y:scroll;
+}
+.score-list-item::-webkit-scrollbar,
+.result-list-item::-webkit-scrollbar
+{
+    width:8px;
+    height:8px;
+    background-color: transparent;
+}
+.score-list-item::-webkit-scrollbar-track,
+.result-list-item::-webkit-scrollbar-track
+{
+    background: transparent;
+    border-radius:2px;
+}
+.score-list-item::-webkit-scrollbar-thumb,
+.result-list-item::-webkit-scrollbar-thumb
+{
+    background: darkred;
+    border-radius:2px;
+}
+.score-list-item::-webkit-scrollbar-thumb:hover,
+.result-list-item::-webkit-scrollbar-thumb:hover
+{
+    background: darkred;
+}
+.score-list-item::-webkit-scrollbar-corner,
+.result-list-item::-webkit-scrollbar-corner
+{
+    background: transparent;
+}
