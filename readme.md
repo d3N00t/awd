@@ -2,7 +2,7 @@
 
 by Jikemofan@czzsy.com
 
-###新增功能介绍：
+### 新增功能介绍：
 增加可视化web界面。
 
 ![实施战况](./1.png)
@@ -11,10 +11,10 @@ by Jikemofan@czzsy.com
 
 ![flag提交](./2.png)
 
-###修复BUG：
+### 修复BUG：
 1.修复重复提交flag仍可得分bug。
 
-###比赛的环境介绍：
+### 比赛的环境介绍：
 
 
 
